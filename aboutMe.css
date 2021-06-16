@@ -31,4 +31,23 @@
   opacity: 1;
   font-size: 22px;
   cursor: pointer;
+  scroll-behavior: smooth;
+}
+
+.header_about_me img {
+  width: 20%;
+  height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header_about_me h1 {
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
 }
