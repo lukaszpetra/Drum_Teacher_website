@@ -9,6 +9,15 @@
   color: white;
   font-size: 24px;
 }
+
+h1 img {
+  height: 95%;
+  width: 95%;
+  position: relative;
+  left: 170px;
+  top: -75px;
+}
+
 .header {
   min-height: 100vh;
   width: 100%;
