@@ -35,6 +35,7 @@
 }
 
 .header_about_me img {
+  /* padding: 15px; */
   width: 20%;
   height: 20%;
   display: block;
@@ -42,12 +43,49 @@
   margin-right: auto;
 }
 
+.img_about {
+  display: flex;
+  flex-direction: row;
+  /* padding: 20px; */
+}
+
 .header_about_me h1 {
   color: white;
-  font-size: 24px;
+  font-size: 30px;
+  padding: 10px;
+  padding-bottom: 25px;
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   text-transform: uppercase;
+}
+
+.about {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+.img {
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  /* padding: 10px; */
+  margin: 2px;
+  display: list-item;
+  border: 3px solid #a4f7ef;
+  border-radius: 10px;
+}
+
+.about p {
+  color: white;
+  width: 90%;
+  padding: 15px;
+  font-size: 20px;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
