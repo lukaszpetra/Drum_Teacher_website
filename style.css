@@ -211,6 +211,12 @@ nav .fas {
   padding-top: 60px;
 }
 
+.instruments p {
+  padding: 0;
+  color: #777;
+  padding-bottom: 25px;
+}
+
 .instruments_column {
   flex-basis: 32%;
   border-radius: 10px;
@@ -256,7 +262,7 @@ nav .fas {
   opacity: 1;
 }
 
-.gallery {
+/* .gallery {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -287,7 +293,7 @@ nav .fas {
   margin-top: 16px;
   margin-bottom: 15px;
   font-weight: 600;
-}
+} */
 
 @media (max-width: 700px) {
   .gallery_row {
@@ -379,3 +385,50 @@ html {
   transition: 1s;
   color: #fff;
 }
+
+/* Galeria */
+
+.gallery-wrapper h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+}
+
+.gallery-wrapper p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #777;
+  padding: 0;
+}
+
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.single-img {
+  padding: 0 20px 20px;
+  height: 420px;
+  width: 640px;
+  overflow: hidden;
+
+  @media (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+}
+
+.single-img img {
+  height: auto;
+  width: 640px;
+  border-radius: 10px;
+}
+
+/* ---------- */

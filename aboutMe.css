@@ -34,6 +34,10 @@
   scroll-behavior: smooth;
 }
 
+.logo {
+  padding: 20px;
+}
+
 .header_about_me img {
   /* padding: 15px; */
   width: 20%;

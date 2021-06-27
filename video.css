@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/g6.jpg);
+  background-size: cover;
+}
+
+html {
+  font-size: 24px;
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-container .video {
+  height: 17rem;
+  width: 25rem;
+  margin: 2rem;
+  overflow: hidden;
+  border: 3px solid #03dac6;
+  border-radius: 15px;
+}
+
+.video p {
+  color: white;
+}
