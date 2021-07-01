@@ -475,8 +475,15 @@ nav .fas {
   color: black;
   cursor: pointer;
   padding: 10px;
-  font-size: 18px;
+  font-size: 13px;
   border: none;
+  text-transform: uppercase;
+}
+
+.contact-form .inputBox input[type="submit"]:hover {
+  background: black;
+  color: white;
+  transition: 1s;
 }
 
 @media (max-width: 700px) {
@@ -520,6 +527,12 @@ nav .fas {
   bottom: 26px;
   pointer-events: auto;
   opacity: 1;
+}
+
+.to_top:hover {
+  background: black;
+  color: white;
+  transition: 0.5s;
 }
 
 html {
