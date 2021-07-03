@@ -40,3 +40,34 @@ html {
 .video p {
   color: white;
 }
+
+.back_to {
+  background-color: #a4f7ef;
+  position: fixed;
+  left: 26px;
+  top: 42px;
+  height: 60px;
+  width: 60px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #1f1f1f;
+  opacity: 1;
+  font-size: 22px;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+
+.to_top.active {
+  bottom: 26px;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.to_top:hover {
+  background: black;
+  color: white;
+  transition: 0.5s;
+}
