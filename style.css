@@ -169,7 +169,16 @@ nav .fas {
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
-  padding: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.course ul > li {
+  color: #777;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 300;
 }
 
 .row {
@@ -192,6 +201,14 @@ nav .fas {
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
+}
+
+.course_column p {
+  color: #777;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 300;
 }
 
 .course_column:hover {
@@ -328,11 +345,13 @@ nav .fas {
 
 .contact .content h2 {
   font-size: 36px;
+  margin-top: -50px;
 }
 
 .contact .content p {
   font-weight: 300;
   color: black;
+  padding-bottom: 30px;
 }
 
 .container {
@@ -558,6 +577,25 @@ html {
   transition: 1s;
   color: #fff;
 }
+
+/* uttony zapisz się */
+
+#stationary {
+}
+
+#online {
+  margin-top: 65px;
+}
+#online a {
+  text-decoration: none;
+  color: black;
+}
+
+#drive {
+  margin-top: 15px;
+}
+
+/* ---------------- */
 
 /* Galeria */
 
