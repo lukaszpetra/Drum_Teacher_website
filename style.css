@@ -643,3 +643,23 @@ html {
 }
 
 /* ---------- */
+
+footer {
+  text-align: center;
+  color: #777;
+  font-size: 13px;
+  background-color: #a4f7ef;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
