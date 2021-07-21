@@ -11,11 +11,11 @@
 }
 
 h1 img {
-  height: 95%;
-  width: 95%;
+  height: 170%;
+  width: 170%;
   position: relative;
-  left: 170px;
-  top: -75px;
+  left: -20px;
+  top: -10px;
 }
 
 .header {
@@ -149,6 +149,12 @@ nav .fas {
 
   .logo {
     opacity: 0;
+  }
+  h1 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 }
 
@@ -402,13 +408,61 @@ nav .fas {
   color: black;
 }
 
-/* .contact h1 {
+/* social apps */
+
+.contact-info h4 {
   color: black;
-  margin-bottom: 40px;
-  padding: 0;
-} */
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.social_wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.social_btw {
+  background-color: #fff;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  font-size: 22px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.social_btw i {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social_btw a {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
 .contact a {
-  display: inline-block;
+  /* display: inline-block;
   text-decoration: none;
   color: black;
   border: 1px solid black;
@@ -417,15 +471,15 @@ nav .fas {
   background: transparent;
   position: relative;
   cursor: pointer;
-  text-transform: uppercase;
+  text-transform: uppercase; */
 }
 
-.contact a:hover {
+/* .contact a:hover {
   border: 1px solid black;
   background: black;
   transition: 1s;
   color: #fff;
-}
+} */
 
 .contact-form {
   width: 40%;
@@ -578,7 +632,7 @@ html {
   color: #fff;
 }
 
-/* uttony zapisz się */
+/* buttony zapisz się */
 
 #stationary {
 }
