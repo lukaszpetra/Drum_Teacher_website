@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+.back_to {
+  background-color: #a4f7ef;
+  position: fixed;
+  left: 26px;
+  top: 42px;
+  height: 60px;
+  width: 60px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #1f1f1f;
+  opacity: 1;
+  font-size: 22px;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+
+.to_top:hover {
+  background: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.logo {
+  padding: 20px;
+  width: 20%;
+  height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/aboutMe-background.jpg);
+}
+
+.gallery-wrapper h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  color: white;
+}
+
+.gallery-wrapper p {
+  color: white;
+}
+
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.single-img {
+  padding: 0 20px 20px;
+  width: 50%;
+  height: auto;
+}
+
+.single-img {
+  @media (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+}
+
+.single-img img {
+  width: 40%;
+  height: auto;
+}

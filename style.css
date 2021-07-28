@@ -480,15 +480,6 @@ nav .fas {
   background-color: black;
   transition: 0.5s;
   color: #d6249f;
-  /* background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25); */
 }
 
 .contact a {
@@ -683,6 +674,14 @@ html {
 
 /* Galeria */
 
+.gallery-wrapper {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
 .gallery-wrapper h2 {
   text-align: center;
   font-size: 36px;
@@ -704,15 +703,24 @@ html {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
+  margin: auto;
+  text-align: center;
   padding-top: 60px;
+
+  /* width: 80vw;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px; */
 }
 
 .single-img {
   padding: 0 20px 20px;
-  height: 420px;
-  width: 640px;
-  overflow: hidden;
+  width: 50%;
+  height: auto;
+}
 
+.single-img {
   @media (max-width: 700px) {
     .row {
       flex-direction: column;
@@ -721,9 +729,8 @@ html {
 }
 
 .single-img img {
+  width: 40%;
   height: auto;
-  width: 640px;
-  border-radius: 10px;
 }
 
 /* ---------- */
