@@ -288,7 +288,7 @@ nav .fas {
 /* /////////////////////////////////////////////////////// */
 
 .btn_course {
-  display: inline-block;
+  /* display: inline-block; */
   text-decoration: none;
   color: black;
   border: 1px solid black;
@@ -296,9 +296,11 @@ nav .fas {
   font-size: 13px;
   background: transparent;
   position: relative;
-  bottom: -500px;
+  margin-top: 500px;
   cursor: pointer;
   text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn_course:hover {
