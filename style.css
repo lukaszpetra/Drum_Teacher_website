@@ -285,6 +285,29 @@ nav .fas {
   opacity: 1;
 }
 
+/* /////////////////////////////////////////////////////// */
+
+.btn_course {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  bottom: -500px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn_course:hover {
+  border: 1px solid black;
+  background: black;
+  transition: 1s;
+  color: #fff;
+}
+
 /* .gallery {
   width: 80%;
   margin: auto;
@@ -318,11 +341,11 @@ nav .fas {
   font-weight: 600;
 } */
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .gallery_row {
     flex-direction: column;
   }
-}
+} */
 /* sekcja kontakt */
 .contact {
   margin: 100px auto;
@@ -633,26 +656,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.btn_course {
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-  border: 1px solid black;
-  padding: 12px 34px;
-  font-size: 13px;
-  background: transparent;
-  position: relative;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-
-.btn_course:hover {
-  border: 1px solid black;
-  background: black;
-  transition: 1s;
-  color: #fff;
-}
-
 /* buttony zapisz się */
 
 #stationary {
@@ -674,7 +677,7 @@ html {
 
 /* Galeria */
 
-.gallery-wrapper {
+/* .gallery-wrapper {
   width: 800px;
   text-align: center;
   margin: auto;
@@ -712,7 +715,6 @@ html {
   margin: auto;
   text-align: center;
   padding-top: 100px; */
-}
 
 .single-img {
   padding: 0 20px 20px;
@@ -732,6 +734,7 @@ html {
   width: 40%;
   height: auto;
 }
+*/
 
 /* ---------- */
 

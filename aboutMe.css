@@ -63,7 +63,6 @@
   color: white;
   font-size: 30px;
   padding: 10px;
-  padding-bottom: 25px;
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -72,11 +71,29 @@
 }
 
 .about {
-  width: 100%;
+  /* width: 100%;
   padding: 5px;
   text-align: center;
-  color: white;
+  color: white; */
+  justify-content: center;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
+.img_about {
+  flex-basis: 51%;
+}
+
+.about_text {
+  column-count: 2;
+  text-align: center;
+  padding: 10px;
+}
+
 .img {
   width: 25%;
   height: 100px;
