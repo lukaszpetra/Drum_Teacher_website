@@ -639,7 +639,7 @@ nav .fas {
   opacity: 0;
   font-size: 22px;
   pointer-events: none;
-  transition: all 0.5s;
+  transition: all 1s;
 }
 
 .to_top.active {
