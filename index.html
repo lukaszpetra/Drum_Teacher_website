@@ -91,8 +91,8 @@
                     <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
                     <div class="text">
                         <h3>Telefon</h3>
-                        <p>730-568-384</p>
                         <p>502-916-282</p>
+                        <p>730-568-384</p>
                     </div>
                 </div>
                 <div class="box">
@@ -104,7 +104,7 @@
                 </div>
                 <h4>Znajdziesz Nas również na:</h4>
                 <div class="social_wrapper">
-                    <a href="https://www.facebook.com/drummeracademylublin/" class="social_btw" id="fb" target="_blank"><div>
+                    <a href="https://www.facebook.com/drummeracademy" class="social_btw" id="fb" target="_blank"><div>
                         <i class="fab fa-facebook"></i>
                     </div></a>
 
@@ -118,22 +118,22 @@
                 </div>
             </div>
 
-            <form class="contact-form" method="POST">
+            <form class="contact-form" method="POST" action="contactForm.php">
                 <h2>Napisz do Nas...</h2>
                 <div class="inputBox">
-                    <input type="text"required="required">
+                    <input type="text"required="required" name="name">
                     <span>Imie i Nazwisko</span>
                 </div>
                 <div class="inputBox">
-                    <input type="text"required="required">
+                    <input type="text"required="required" name="email">
                     <span>Email</span>
                 </div>
                 <div class="inputBox">
-                    <textarea required="required"></textarea>
+                    <textarea required="required" name="message"></textarea>
                     <span>Treśc wiadomości:</span>
                 </div>
                 <div class="inputBox">
-                    <input type="submit" value="wyślij">
+                    <input type="submit" name="submit" value="wyślij">
                 </div>
             </form>
         </div>
